@@ -1,0 +1,26 @@
+{
+	"code": 1,
+	"msg": "",
+	"time": "1608087092",
+	"data": [{
+		"shopIcon": "http:\/\/logo.taobaocdn.com\/shop-logo\/i4\/2209937021753\/O1CN0146eGUk1OouwaMEQpe_!!2209937021753.jpg",
+		"pinpai_name": "迪士尼",
+		"start": 1
+	}, {
+		"shopIcon": "http:\/\/logo.taobaocdn.com\/shop-logo\/i3\/2208682283263\/O1CN01grkR2z1ZyUzA9Lk7r_!!2208682283263.png",
+		"pinpai_name": "修正",
+		"start": 2
+	}, {
+		"shopIcon": "http:\/\/logo.taobaocdn.com\/shop-logo\/c2\/9e\/TB1Lfyxe1T2gK0jSZFvwu0nFXXa.png",
+		"pinpai_name": "DW",
+		"start": 3
+	}, {
+		"shopIcon": "http:\/\/logo.taobaocdn.com\/shop-logo\/i4\/2207962083792\/O1CN01kjfsbs1dsmTs8ZtoM_!!2207962083792.png",
+		"pinpai_name": "得力",
+		"start": 4
+	}, {
+		"shopIcon": "http:\/\/logo.taobaocdn.com\/shop-logo\/ee\/43\/TB1jovPlbArBKNjSZFLwu3_dVXa.png",
+		"pinpai_name": "童泰",
+		"start": 5
+	}]
+}

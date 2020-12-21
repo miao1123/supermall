@@ -1,0 +1,26 @@
+ {
+	"code": 1,
+	"msg": "",
+	"time": "1608086972",
+	"data": [{
+		"shopIcon": "http:\/\/logo.taobaocdn.com\/shop-logo\/i4\/2379614323\/TB2UZTqt1SSBuNjy0FlXXbBpVXa_!!2379614323.jpg",
+		"pinpai_name": "南极人",
+		"start": 1
+	}, {
+		"shopIcon": "http:\/\/logo.taobaocdn.com\/shop-logo\/i4\/2208344421450\/O1CN01qAgUrY1Ma8uI7Kh5D_!!2208344421450.jpg",
+		"pinpai_name": "晨光",
+		"start": 2
+	}, {
+		"shopIcon": "http:\/\/logo.taobaocdn.com\/shop-logo\/i1\/4255085949\/O1CN01Rx0N9e1togfjOZgAG_!!4255085949.jpg",
+		"pinpai_name": "飞科",
+		"start": 3
+	}, {
+		"shopIcon": "http:\/\/logo.taobaocdn.com\/shop-logohttps:\/\/img.alicdn.com\/imgextra\/i2\/268451883\/TB2BUcbdv1TBuNjy0FjXXajyXXa_!!268451883.jpg",
+		"pinpai_name": "品胜",
+		"start": 4
+	}, {
+		"shopIcon": "http:\/\/logo.taobaocdn.com\/shop-logo\/i3\/2089010160\/O1CN016MjHnH1D3K0erM7pE_!!2089010160.png",
+		"pinpai_name": "恒源祥",
+		"start": 5
+	}]
+}
