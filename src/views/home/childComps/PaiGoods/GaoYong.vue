@@ -23,7 +23,7 @@ export default {
     }
   },
   created(){
-    this.gaodata = gaoyong.data.splice(0, 3)
+    this.gaodata = gaoyong.data.slice(0, 3)
   }
 }
 </script>

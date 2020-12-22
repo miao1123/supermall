@@ -20,7 +20,7 @@ export default {
   }
   .haojuan-img {
     width: 97%;
-    margin: 0.25rem auto;
+    margin: 0.4rem auto;
     display: flex;
     justify-content: space-around;
   }

@@ -9,7 +9,9 @@ const HomeMain = () => import("../views/home/HomeMain")
 const HomeGuess = () => import("../views/home/HomeGuess")
 const HomeMuying = () => import("../views/home/HomeMuying")
 const HomeFoods = () => import("../views/home/HomeFoods")
-const DetaildsItem = () => import("../components/goods/DetaildsItem")
+const TbDetial = () => import("../views/home/goodsDetail/TbDetial")
+const JdDetial = () => import("../views/home/goodsDetail/JdDetial")
+const PddDetial = () => import("../views/home/goodsDetail/PddDetial")
 
 Vue.use(VueRouter)
 
@@ -31,15 +33,15 @@ const routes = [
         redirect: '/home/homemain'
       },
       {
-        path: 'homemain',
+        path: '/home/homemain',
         component: HomeMain
       },
       {
-        path: 'homeguess',
+        path: '/home/homeguess',
         component: HomeGuess
       },
       {
-        path: '母婴',
+        path: '/home/母婴',
         component: HomeMuying
       }
     ]
@@ -73,18 +75,39 @@ const routes = [
     }
   },
   {
-    path: '/details',
-    component: DetaildsItem,
+    path: '/tbdetails',
+    component: TbDetial,
     meta: {
-      title: "details"
+      title: "tbdetails"
+    }
+  },
+  {
+    path: '/jddetails',
+    component: JdDetial,
+    meta: {
+      title: "jddetails"
+    }
+  },
+  {
+    path: '/pdddetails',
+    component: PddDetial,
+    meta: {
+      title: "pdddetails"
     }
   }
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  // mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  }
 })
 
 // 导航守卫

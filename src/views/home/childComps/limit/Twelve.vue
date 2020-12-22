@@ -20,7 +20,7 @@ export default {
     }
   },
   created() {
-    this.twelvedata = twelve.data.splice(0, 3)
+    this.twelvedata = twelve.data.slice(0, 3)
   }
 }
 </script>

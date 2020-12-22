@@ -1,20 +1,15 @@
 <template>
   <div class="guide">
-    <guidebox1></guidebox1>
-    <pinpaibox></pinpaibox>
+    <guidebox-1 />
   </div>
 </template>
 
 <script>
   import guidebox1 from '../../components/guidecom/guidebox1.vue'
-  import pinpaibox from '../../components/guidecom/pinpaibox.vue'
-  
   export default {
-    name: 'guide',
+    name: 'Guide',
     components: {
       guidebox1,
-      pinpaibox,
-      isShow:true
     }
   }
 </script>

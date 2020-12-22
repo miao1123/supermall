@@ -63,11 +63,11 @@ export default {
   }
   .toutiao-box-center {
     height: 2rem;
-    width: 16.5rem;
+    width: 16rem;
     padding-left: 0.3rem;
   }
   .toutiao-swiper-item {
-    width: 16.5rem;
+    width: 16rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -76,5 +76,6 @@ export default {
   .toutiao-box-right>img {
     height: 1.3rem;
     margin-top: 0.6rem;
+    margin-right: 1rem;
   }
 </style>

@@ -33,24 +33,29 @@
 </script>
 
 <style scoped>
+  #per1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #fafafa;
+  }
   .per1-box{
     display: inline-block;
     width: 46%;
-    height: 14rem;
+    height: 18rem;
     background-color: white;
     position: relative;
     border-radius: 0.3125rem;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 0.2rem;
+    
   }
   .img1-1>img{
     position: absolute;
-    width: 96%;
-    height: 57%;
+    /* width: 96%; */
+    width: 10.5rem;
     background-color: mediumpurple;
     line-height: 6.25rem;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 0 0.2rem;
     top: 0.25rem;
     border-radius: 0.3125rem;
   }

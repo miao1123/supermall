@@ -18,7 +18,7 @@ export default {
     width: 97%;
     height: 1.9rem;
     background-color: #fff;
-    margin: 0.3rem auto;
+    margin: 0.4rem auto;
     border-radius: 5%;
   }
   .look-more-box {

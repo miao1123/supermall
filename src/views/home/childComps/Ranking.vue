@@ -64,10 +64,11 @@ export default {
   #ranking {
     height: 15.5rem;
     background-color: #fff;
+    margin: 0.6rem 0;
   }
   .ranking-head-box {
     width: 100%;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     position: absolute;
     background-color: #fff;
   }

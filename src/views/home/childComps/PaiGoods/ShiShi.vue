@@ -23,7 +23,7 @@ export default {
     }
   },
   created(){
-    this.shidata = shishi.data.splice(0, 3)
+    this.shidata = shishi.data.slice(0, 3)
   }
 }
 </script>

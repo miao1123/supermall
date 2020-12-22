@@ -20,7 +20,7 @@ export default {
     }
   },
   created() {
-    this.zerodata = zero.data.splice(0, 3)
+    this.zerodata = zero.data.slice(0, 3)
   }
 }
 </script>

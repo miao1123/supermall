@@ -73,9 +73,8 @@
   }
 
   .container {
-    margin-top: 10rem;
+    margin-top: 9.4rem;
     width: 100%;
-    /*  */
     background: url(../../assets/img/guide/box2_bg.png) no-repeat;
     background-size: 100% 12rem;
   }
@@ -84,7 +83,7 @@
     flex-direction: column;
     justify-content: end;
     width: 90%;
-    height: 16rem;
+    height: 15rem;
     /*  */
     border: 1px solid lightgray;
     border-top: 0;
@@ -94,7 +93,8 @@
   .title {
     height: 2rem;
     /*  */
-    font-size: 1.15rem;
+    font-size: 1rem;
+    padding-top: 0.5rem;
   }
 
   .title>.line {
@@ -126,9 +126,10 @@
   #more {
     margin-top: 0.5rem;
     width: 5rem;
-    height: 1.7rem;
+    height: 1.5rem;
     /*  */
-    line-height: 1.7rem;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
     text-align: center;
     border-radius: 2rem;
     background-color: lightgray;
@@ -156,24 +157,23 @@
   .topbox>.logo {
     justify-content: space-evenly;
     width: 50%;
-    height: 2rem;
+    height: 1.9rem;
     /*  */
     color: #FFF;
-    font-size: 1rem;
+    font-size: 0.8rem;
     /* background-color: #40A7E8; */
     background-image: linear-gradient(to right,#1dc4ee 30%, #0077ff);
     border-radius: 2rem 0 0 0;
     display: flex;
-    position: relative;
   }
   .logo-img {
-    height: 2rem;
-    width: 2rem;
+    height: 1.8rem;
+    width: 1.8rem;
     border-radius: 50%;
     background-color: #fff;
     overflow: hidden;
     position: absolute;
-    left: 1.5rem;
+    left: 1.8rem;
   }
   .logo-img>img {
     /* height: 2rem; */
@@ -185,8 +185,10 @@
     left: 4.5rem;
   }
   .topbox>.more {
-    width: 4rem;
-    height: 2rem;
+    width: 3rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    font-size: 0.9rem;
     /*  */
     color: #FFF;
     line-height: 2rem;

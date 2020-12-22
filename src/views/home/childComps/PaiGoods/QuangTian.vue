@@ -23,7 +23,7 @@ export default {
     }
   },
   created(){
-    this.quandata = quangtian.data.splice(0, 3)
+    this.quandata = quangtian.data.slice(0, 3)
   }
 }
 </script>

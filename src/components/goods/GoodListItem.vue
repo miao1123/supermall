@@ -1,5 +1,5 @@
 <template>
-  <div class="per-box" @click="btnClick(id)">
+  <div class="per-box" >
     <div class="img1">
       <slot name="g-img"></slot>
     </div>
@@ -18,8 +18,6 @@
     <div class="imgz2"><slot name="amount"></slot></div>
     <div class="imgz3">赚</div>
     <div class="imgz4">券</div>
-      <!-- <div class="img3"><img src="../../../assets/img/home/store-icon.png"></div> -->
-      <!-- <div class="per4">{{item.nick}}</div> -->
     <div class="per-shadow"></div>
   </div>
 </template>
@@ -30,16 +28,6 @@ export default {
   props: {
     id: {
       type: Number
-    }
-  },
-  methods: {
-    btnClick(id) {
-      this.$router.push({
-        path: '/details',
-        query: {
-          goods_id: id
-        }
-      })
     }
   }
 }

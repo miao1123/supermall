@@ -1,7 +1,7 @@
 <template>
   <div id="jd-goods">
     <div class="jd">
-      <goods-list-item v-for="(item, index) in jdgoods" :key="index">
+      <goods-list-item v-for="(item, index) in jdgoods" :key="index"  @click.native="btnClick(index)" >
         <img :src="item.pic_url_for_p_c" alt="" slot="g-img">
         <img src="../../../../assets/img/home/goods/jingjing_pt.png" alt="" slot="g-icon">
         <span slot="g-text">{{item.title}}</span>
@@ -30,6 +30,16 @@ export default {
   },
   components: {
     GoodsListItem
+  },
+  methods: {
+    btnClick(index) {
+      this.$router.push({
+        path: '/jddetails',
+        query: {
+          goods_id: index
+        }
+      })
+    }
   }
 }
 </script>

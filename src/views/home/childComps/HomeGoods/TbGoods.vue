@@ -1,7 +1,7 @@
 <template>
   <div id="tbgoods">
     <div class="tb">
-      <goods-list-item v-for="(item, index) in tbgoods" :key="index" :id="item.id">
+      <goods-list-item v-for="(item, index) in tbgoods" :key="index" :id="index" @click.native="btnClick(index)">
         <img :src="item.pic_url_for_w_l" alt="" slot="g-img">
         <img src="../../../../assets/img/home/goods/taobao.png" alt="" slot="g-icon">
         <span slot="g-text">{{item.title}}</span>
@@ -31,7 +31,16 @@ import GoodsListItem from '../../../../components/goods/GoodListItem'
     components: {
       GoodsListItem
     },
-    
+    methods: {
+      btnClick(index) {
+        this.$router.push({
+          path: '/tbdetails',
+          query: {
+            goods_id: index
+          }
+        })
+      }
+    }
 	}
 </script>
 

@@ -70,10 +70,12 @@ export default {
   }
   .rd-center-img {
     width: 33.3%;
+    
     padding: 0 0.3rem;
   }
   .rd-center-img>img {
     width: 100%;
+    /* height: 4rem; */
   }
   .rd-bottom {
     display: flex;

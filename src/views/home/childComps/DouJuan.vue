@@ -53,6 +53,7 @@ export default {
   #dou-juan {
     background-color: #fff;
     padding: 0.25rem;
+    margin: 0.25rem 0;
   }
   .dou-juan-head {
     height: 2.5rem;

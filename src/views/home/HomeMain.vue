@@ -19,7 +19,7 @@
       </template>
       
       <div class="bg">
-        <img src="../../assets/img/home/bg/bannerba1.png" alt="" >
+        <img :src="bgUrl" alt="" >
       </div>
       <div class="fslide">
         <home-swiper :swiper1="swiper1" />
@@ -79,6 +79,7 @@ export default {
       guidetitles: ['热门','购物','生活','出行','悦拜专属'],
       titles: ['淘宝新品', '京东爆款', '拼多多爆款'],
       isLoading: false,
+      bgUrl: require('../../assets/img/home/bg/bannerba1.png')
     }
   },
   components: { 
